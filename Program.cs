@@ -8,11 +8,12 @@ namespace BankProgram
         static void Main(string[] args)
         {
             Person person = new Person("Metro Bank", "John");
-            Transaction john = new Transaction(AccountType.Investment_Individual, person.BankName, person.OwnerName);
+            Transaction john = new Transaction(AccountType.Investment_Individual, person);
             john.Withdraw(500);
             john.CheckStatus();
             john.Deposit(3000);
-            john.Withdraw(3001);
+            john.Withdraw(600);
+            john.CheckStatus();
         }
 
         enum AccountType
@@ -42,11 +43,11 @@ namespace BankProgram
             int balance = 5000;
             int amountWithrawed = 0;
          
-            public Transaction(AccountType accountType, string bankName, string ownerName)
+            public Transaction(AccountType accountType, Person person)
             {
                 this.accountType = accountType;
-                this.BankName = bankName;
-                this.OwnerName = ownerName;
+                this.BankName = person.BankName;
+                this.OwnerName = person.OwnerName;
                 Console.WriteLine($"Initial Balance {balance}");
             }
 
@@ -70,7 +71,7 @@ namespace BankProgram
                 {
                     if (accountType == AccountType.Investment_Individual)
                     {
-                        if (amountWithrawed > 500) { Console.WriteLine($"Withdraw Limit for {accountType} is limit to  $500"); }
+                        if (amountWithrawed > 500) { Console.WriteLine($"Withdraw Limit for {accountType} is $500"); }
                         else
                         {
                             balance -= amount;

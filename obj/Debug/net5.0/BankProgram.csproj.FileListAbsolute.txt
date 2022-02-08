@@ -13,3 +13,4 @@ E:\CSharp-Console\BankProgram\obj\Debug\net5.0\BankProgram.dll
 E:\CSharp-Console\BankProgram\obj\Debug\net5.0\ref\BankProgram.dll
 E:\CSharp-Console\BankProgram\obj\Debug\net5.0\BankProgram.pdb
 E:\CSharp-Console\BankProgram\obj\Debug\net5.0\BankProgram.genruntimeconfig.cache
+E:\CSharp-Console\BankProgram\obj\Debug\net5.0\BankProgram.csprojAssemblyReference.cache
