@@ -42,6 +42,7 @@ namespace BankProgram
             string OwnerName;
             int balance = 5000;
             int amountWithrawed = 0;
+            int limit = 500;
          
             public Transaction(AccountType accountType, Person person)
             {
@@ -71,7 +72,7 @@ namespace BankProgram
                 {
                     if (accountType == AccountType.Investment_Individual)
                     {
-                        if (amountWithrawed > 500) { Console.WriteLine($"Withdraw Limit for {accountType} is $500"); }
+                        if (amountWithrawed > limit) { Console.WriteLine($"Withdraw Limit for {accountType} is ${limit}"); }
                         else
                         {
                             balance -= amount;
@@ -95,7 +96,7 @@ namespace BankProgram
             public void CheckStatus()
             {
                 Console.WriteLine($"Bank Name: {BankName}");
-                Console.WriteLine($"{OwnerName} Your Balance is : " + this.balance);
+                Console.WriteLine($"{OwnerName} Your Balance is : {balance}");
             }
         }
     }
