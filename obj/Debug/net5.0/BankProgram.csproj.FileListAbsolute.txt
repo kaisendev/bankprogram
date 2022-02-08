@@ -1,0 +1,15 @@
+E:\CSharp-Console\BankProgram\bin\Debug\net5.0\BankProgram.exe
+E:\CSharp-Console\BankProgram\bin\Debug\net5.0\BankProgram.deps.json
+E:\CSharp-Console\BankProgram\bin\Debug\net5.0\BankProgram.runtimeconfig.json
+E:\CSharp-Console\BankProgram\bin\Debug\net5.0\BankProgram.runtimeconfig.dev.json
+E:\CSharp-Console\BankProgram\bin\Debug\net5.0\BankProgram.dll
+E:\CSharp-Console\BankProgram\bin\Debug\net5.0\ref\BankProgram.dll
+E:\CSharp-Console\BankProgram\bin\Debug\net5.0\BankProgram.pdb
+E:\CSharp-Console\BankProgram\obj\Debug\net5.0\BankProgram.GeneratedMSBuildEditorConfig.editorconfig
+E:\CSharp-Console\BankProgram\obj\Debug\net5.0\BankProgram.AssemblyInfoInputs.cache
+E:\CSharp-Console\BankProgram\obj\Debug\net5.0\BankProgram.AssemblyInfo.cs
+E:\CSharp-Console\BankProgram\obj\Debug\net5.0\BankProgram.csproj.CoreCompileInputs.cache
+E:\CSharp-Console\BankProgram\obj\Debug\net5.0\BankProgram.dll
+E:\CSharp-Console\BankProgram\obj\Debug\net5.0\ref\BankProgram.dll
+E:\CSharp-Console\BankProgram\obj\Debug\net5.0\BankProgram.pdb
+E:\CSharp-Console\BankProgram\obj\Debug\net5.0\BankProgram.genruntimeconfig.cache

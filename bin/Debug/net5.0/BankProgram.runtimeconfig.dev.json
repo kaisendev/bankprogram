@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Blink\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Blink\\.nuget\\packages"
+    ]
+  }
+}
